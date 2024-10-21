@@ -1,0 +1,16 @@
+@media(max-width: 992px){
+    .menus{
+        display: none;
+    }
+    .bars i{
+        display: block;
+        visibility: visible;
+    }
+}
+@media(max-width: 475px){
+    .btns{
+        gap: 15px;
+        display: none;
+    }
+    
+}

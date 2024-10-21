@@ -1,0 +1,142 @@
+/*
+Author Name: Anik Islam
+Templete Name: Landing VPN
+Version: 1.0.0
+*/
+
+/* ESSENTIAL SET UP  */
+/* ROOT VARIABLEA  */
+:root {
+    --global-variable: "Rubik", sans-serif;
+    --text-color: #4F5665;
+    --text-hover-color: #F53838;
+    --btn-color: #F53855;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--global-variable);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1115px;
+    margin: 0 auto;
+}
+
+
+/*HEADER SECTION START START*/
+/* .header-section{
+
+ } */
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 40px 0;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+}
+
+.menus li {
+    list-style: none;
+}
+
+.menus li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 18px;
+    padding: 0 18px;
+    transition: 0.2s;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menus li a:hover {
+    color: var(--text-hover-color);
+}
+
+.btns {
+    display: flex;
+    gap: 25px;
+}
+
+.btns .in a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btns .up a {
+    color: var(--btn-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 1px solid var(--btn-color);
+    border-radius: 23px;
+    transition: 0.2s;
+}
+.btns .up a:hover{
+    background-color: var(--btn-color);
+    color: var(--text-color);
+}
+.bars i{ 
+    padding: 10px 15px;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+    visibility: hidden;
+}
+.header-right{
+    display: flex;
+}
+/*HEADER SECTION START END  */
+
+/* SECTION START START*/
+/* SECTION START  END */
