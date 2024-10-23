@@ -11,6 +11,8 @@ Version: 1.0.0
     --text-color: #4F5665;
     --text-hover-color: #F53838;
     --btn-color: #F53855;
+    --white-color: #fff;
+    --black-color: #000;
 }
 
 * {
@@ -137,6 +139,49 @@ ul {
     display: flex;
 }
 /*HEADER SECTION START END  */
+
+
+/*HERO SECTION START START*/
+.hero-section{
+    padding: 90px 0;
+}
+.hero-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-content .hero-title{
+    font-size: 50px;
+    font-weight: 500; 
+
+}
+.extra{
+    font-weight: 700;
+}
+.hero-info{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.hero-left-btn{
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--text-hover-color);
+    padding: 18px 78px;
+    margin-top: 50px;
+    display: inline-block;
+    box-shadow: rgba(216, 57, 57, 0.794) 0px 48px 100px 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    z-index: 10;
+}
+.hero-left-btn:hover{
+    color: var(--white-color);
+}
+.hero-right .img {
+    z-index: 90;
+}
+/*HERO SECTION START  END */
 
 /* SECTION START START*/
 /* SECTION START  END */
