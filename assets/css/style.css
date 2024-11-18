@@ -13,6 +13,8 @@ Version: 1.0.0
     --btn-color: #F53855;
     --white-color: #fff;
     --black-color: #000;
+    --counter-icon-bg: #FFECEC;
+    --counter-border: #EEEFF2;
 }
 
 * {
@@ -21,8 +23,8 @@ Version: 1.0.0
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--global-variable);
+body{
+    font-family: var(--global-variable); 
 }
 
 h1 {
@@ -182,6 +184,46 @@ ul {
     z-index: 90;
 }
 /*HERO SECTION START  END */
+
+/*COUNTER SECTION START START*/
+.counter-section{
+
+}
+.counter-row{
+
+}
+.counter-icon{
+    background-color: var(--counter-icon-bg); 
+    display: inline-flex;
+    height: 55px;
+    width: 55px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.counter1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .counter-area{
+    display: flex;
+    align-items: center;
+    column-gap: 35px; 
+    border-right: 2px solid var(--counter-border); 
+    padding-right: 60px;
+ }
+.counter-title{
+    font-weight: 700;
+}
+.counter-info {
+    font-size: 20px;
+}
+.contr-border{
+    border: transparent;
+}
+/*COUNTER SECTION START  END */
 
 /* SECTION START START*/
 /* SECTION START  END */
